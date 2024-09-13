@@ -6,10 +6,17 @@
     <!-- link to the CSS file -->
     <link rel="stylesheet"    href="Margin collapse.css"/>
     <title>No content separating parent and descendants.</title>
+    <!-- If a parent element has a margin and its only children also have margins but there is no content separating them, the margins of the parent and child will collapse. -->
 </head>
+
 <body>
-    <div class="parent">
-        <div class="child">CHILD</div>
+
+    <div class="Parent">
+        <div class="Child">
+            <p>Code Explanation:
+                - The parent element (.Parent) has a margin of 500 pixels, and the child element (.Child) has a margin of 300 pixels.
+                - Instead of having a total distance of 800 pixels (500 + 300), only the largest margin (500 pixels) is applied. Therefore, the space between the parent and child will be 500 pixels.</p>
+            </div>
     </div>
 
 </body>

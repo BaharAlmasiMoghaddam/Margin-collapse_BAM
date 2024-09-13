@@ -1,9 +1,9 @@
-.parent {
+.Parent {
     margin: 500px;
     background-color: rgb(27, 169, 216);
 }
 
-.child{
+.Child{
     margin: 300px;
     background-color: rgb(224, 15, 68);
 }
